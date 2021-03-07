@@ -31,13 +31,13 @@
                       <router-link class="text-black" to="/">Logo</router-link>
                     </li>
                     <li class="text-sm leading-loose">
-                      <router-link class="text-black" :to="{name: 'about'}">Logo Symbol</router-link>
+                      <router-link class="text-black" to="/logo-symbol">Logo Symbol</router-link>
                     </li>
                     <li class="text-sm leading-loose">
-                      <router-link class="text-black" to="/">colors</router-link>
+                      <router-link class="text-black" to="/colors">colors</router-link>
                     </li>
                     <li class="text-sm leading-loose">
-                      <router-link class="text-black" :to="{name: 'about'}">Typography</router-link>
+                      <router-link class="text-black" to="/typography">Typography</router-link>
                     </li>
                   </ul>
                 </section>
@@ -47,16 +47,16 @@
 
                   <ul class="list-reset">
                     <li class="text-sm leading-loose">
-                      <router-link class="text-black" to="/">Mascot</router-link>
+                      <router-link class="text-black" to="/mascot">Mascot</router-link>
                     </li>
                     <li class="text-sm leading-loose">
-                      <router-link class="text-black" :to="{name: 'about'}">Illustrations</router-link>
+                      <router-link class="text-black" to="/illustrations">Illustrations</router-link>
                     </li>
                     <li class="text-sm leading-loose">
-                      <router-link class="text-black" to="/">Loaders and Animations</router-link>
+                      <router-link class="text-black" to="/loaders-and-animations">Loaders and Animations</router-link>
                     </li>
                     <li class="text-sm leading-loose">
-                      <router-link class="text-black" :to="{name: 'about'}">Wallpapers</router-link>
+                      <router-link class="text-black" to="/wallpapers">Wallpapers</router-link>
                     </li>
                   </ul>
                 </section>
